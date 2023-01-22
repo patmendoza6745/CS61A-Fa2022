@@ -17,7 +17,7 @@
 
 (define (accumulate joiner start n term)
   
-  (if (= n 0) start
+  (if (= (+ n 1) 1) start
     (accumulate joiner (joiner start (term n)) (- n 1) term)
   )
 )
