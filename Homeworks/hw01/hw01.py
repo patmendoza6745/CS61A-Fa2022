@@ -13,7 +13,7 @@ def a_plus_abs_b(a, b):
     >>> a_plus_abs_b(-1, -4)
     3
     """
-    if b < 0:
+    if (b+1) < 1:
         f = sub
     else:
         f = add
